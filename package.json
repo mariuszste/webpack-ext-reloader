@@ -1,5 +1,5 @@
 {
-  "name": "@voyage-finance/webpack-ext-reloader",
+  "name": "webpack-ext-reloader-mv3",
   "version": "1.2.0",
   "private": false,
   "description": "Watch for file changes and reload WebExtensions on browsers.",
@@ -8,7 +8,7 @@
   "types": "typings/webpack-ext-reloader.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SimplifyJobs/webpack-ext-reloader.git"
+    "url": "git://github.com/WebExp0528/webpack-ext-reloader.git"
   },
   "husky": {
     "hooks": {
@@ -38,9 +38,9 @@
   "author": "Rubens Pinheiro Gonçalves Cavalcante",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SimplifyJobs/webpack-ext-reloader/issues"
+    "url": "https://github.com/WebExp0528/webpack-ext-reloader/issues"
   },
-  "homepage": "https://github.com/SimplifyJobs/webpack-ext-reloader#readme",
+  "homepage": "https://github.com/WebExp0528/webpack-ext-reloader#readme",
   "keywords": [
     "webpack",
     "plugin",

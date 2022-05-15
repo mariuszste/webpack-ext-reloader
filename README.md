@@ -20,18 +20,18 @@ A Webpack plugin to automatically reload browser extensions during development.
 npm
 
 ```bash
-npm install webpack-ext-reloader --save-dev
+npm install webpack-ext-reloader-mv3 --save-dev
 ```
 
 yarn
 
 ```bash
-yarn add webpack-ext-reloader --dev
+yarn add webpack-ext-reloader-mv3 --dev
 ```
 
 ## What is this?
 
-This is a webpack plugin that allows you to bring hot reloading functionality to WebExtensions, essentially `webpack-dev-server`, but for (WebExtensions)[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions].
+This is a webpack plugin that allows you to bring hot reloading functionality to WebExtensions, essentially `webpack-dev-server`, but for [WebExtensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions).
 
 This is a fork from [`webpack-extension-reloader`](https://github.com/rubenspgcavalcante/webpack-extension-reloader), maintained and updated by the team here at Simplify. The goal here is to continue to support the latest version of webpack (`webpack-extension-reloader` only supports webpack v4) while adding new improvements (i.e. HMR).
 
@@ -182,4 +182,4 @@ Please before opening any **issue** or **pull request** check the [contribution 
 
 ### License
 
-This project has been forked from [rubenspgcavalcante/webpack-extension-reloader](https://github.com/rubenspgcavalcante/webpack-extension-reloader), which is licensed under the [MIT license](https://github.com/rubenspgcavalcante/webpack-extension-reloader/blob/master/LICENSE). All changes made in this fork have been licensed via the [MIT license](https://github.com/SimplifyJobs/webpack-ext-reloader/blob/master/LICENSE).
+This project has been forked from [WebExp0528/webpack-ext-reloader](https://github.com/WebExp0528/webpack-ext-reloader), which is licensed under the [MIT license](https://github.com/WebExp0528/webpack-ext-reloader/blob/master/LICENSE). All changes made in this fork have been licensed via the [MIT license](https://github.com/SimplifyJobs/webpack-ext-reloader/blob/master/LICENSE).
