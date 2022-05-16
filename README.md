@@ -1,4 +1,4 @@
-# Webpack Extension Reloader
+# Webpack Extension Reloader(Manifest Version 3)
 
 A Webpack plugin to automatically reload browser extensions during development.
 
@@ -11,9 +11,9 @@ A Webpack plugin to automatically reload browser extensions during development.
 </div>
   
 [![npm version](https://img.shields.io/npm/v/webpack-ext-reloader)](https://www.npmjs.com/package/webpack-ext-reloader)
-[![Test Status](https://github.com/SimplifyJobs/webpack-ext-reloader/workflows/tests/badge.svg)](https://github.com/SimplifyJobs/webpack-ext-reloader/actions?query=branch%3Amaster)
-[![Known Vulnerabilities](https://snyk.io/test/github/SimplifyJobs/webpack-ext-reloader/badge.svg)](https://snyk.io/test/github/SimplifyJobs/webpack-ext-reloader/)
-[![NPM Downloads](https://img.shields.io/npm/dt/webpack-ext-reloader.svg)](https://www.npmjs.com/package/webpack-ext-reloader)
+[![Test Status](https://github.com//WebExp0528/webpack-ext-reloader/workflows/tests/badge.svg)](https://github.com/WebExp0528/webpack-ext-reloader/actions?query=branch%3Amaster)
+[![Known Vulnerabilities](https://snyk.io/test/github/WebExp0528/webpack-ext-reloader/badge.svg)](https://snyk.io/test/github/WebExp0528/webpack-ext-reloader/)
+[![NPM Downloads](https://img.shields.io/npm/dt/webpack-ext-reloader-mv3.svg)](https://www.npmjs.com/package/webpack-ext-reloader)
 
 ## Installing
 
@@ -144,20 +144,20 @@ If you don't want all the plugin setup, you can just use the client that comes w
 You can use by installing the package globally, or directly using `npx`:
 
 ```bash
-npx webpack-ext-reloader
+npx webpack-ext-reloader-mv3
 ```
 
 If you run directly, it will use the  default configurations, but if you want to customize
 you can call it with the following options:
 
 ```bash
-npx webpack-ext-reloader --config wb.config.js --port 9080 --no-page-reload --content-script my-content.js --background bg.js --extension-page popup.js
+npx webpack-ext-reloader-mv3 --config wb.config.js --port 9080 --no-page-reload --content-script my-content.js --background bg.js --extension-page popup.js
 ```
 
 If you have **multiple** content scripts or extension pages, just use comma (with no spaces) while passing the option
 
 ```bash
-npx webpack-ext-reloader --content-script my-first-content.js,my-second-content.js,my-third-content.js --extension-page popup.js,options.js
+npx webpack-ext-reloader-mv3 --content-script my-first-content.js,my-second-content.js,my-third-content.js --extension-page popup.js,options.js
 ```
 
 ### Client options
@@ -182,4 +182,4 @@ Please before opening any **issue** or **pull request** check the [contribution 
 
 ### License
 
-This project has been forked from [WebExp0528/webpack-ext-reloader](https://github.com/WebExp0528/webpack-ext-reloader), which is licensed under the [MIT license](https://github.com/WebExp0528/webpack-ext-reloader/blob/master/LICENSE). All changes made in this fork have been licensed via the [MIT license](https://github.com/SimplifyJobs/webpack-ext-reloader/blob/master/LICENSE).
+This project has been forked from [voyage-finance/webpack-ext-reloader](https://github.com/voyage-finance/webpack-ext-reloader), which is licensed under the [MIT license](https://github.com/WebExp0528/webpack-ext-reloader/blob/master/LICENSE). All changes made in this fork have been licensed via the [MIT license](https://github.com/SimplifyJobs/webpack-ext-reloader/blob/master/LICENSE).
