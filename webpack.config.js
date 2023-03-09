@@ -49,6 +49,11 @@ module.exports = (env = { analyze: false }) => ({
   module: {
     rules: [
       {
+        test: /\.js$/,
+        enforce: "pre",
+        use: ["source-map-loader"],
+      },
+      {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: "babel-loader",

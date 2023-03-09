@@ -10,30 +10,31 @@ A Webpack plugin to automatically reload browser extensions during development.
   <br>
 </div>
   
-[![npm version](https://img.shields.io/npm/v/webpack-ext-reloader)](https://www.npmjs.com/package/webpack-ext-reloader-mv3)
-[![Test Status](https://github.com//WebExp0528/webpack-ext-reloader/workflows/tests/badge.svg)](https://github.com/WebExp0528/webpack-ext-reloader/actions?query=branch%3Amaster)
-[![Known Vulnerabilities](https://snyk.io/test/github/WebExp0528/webpack-ext-reloader/badge.svg)](https://snyk.io/test/github/WebExp0528/webpack-ext-reloader/)
-[![NPM Downloads](https://img.shields.io/npm/dt/webpack-ext-reloader-mv3.svg)](https://www.npmjs.com/package/webpack-ext-reloader-mv3)
+[![npm version](https://img.shields.io/npm/v/webpack-ext-reloader)](https://www.npmjs.com/package/@mariuszste/webpack-ext-reloader-mv3)
+[![Test Status](https://github.com//WebExp0528/webpack-ext-reloader/workflows/tests/badge.svg)](https://github.com/mariuszste/webpack-ext-reloader/actions?query=branch%3Amaster)
+[![Known Vulnerabilities](https://snyk.io/test/github/WebExp0528/webpack-ext-reloader/badge.svg)](https://snyk.io/test/github/mariuszste/webpack-ext-reloader/)
+[![NPM Downloads](https://img.shields.io/npm/dt/mariuszste/webpack-ext-reloader-mv3.svg)](https://www.npmjs.com/package/@mariuszste/webpack-ext-reloader-mv3)
 
 ## Installing
 
 npm
 
 ```bash
-npm install webpack-ext-reloader-mv3 --save-dev
+npm install @mariuszste/webpack-ext-reloader-mv3 --save-dev
 ```
 
 yarn
 
 ```bash
-yarn add webpack-ext-reloader-mv3 --dev
+yarn add @mariuszste/webpack-ext-reloader-mv3 --dev
 ```
 
 ## What is this?
 
 This is a webpack plugin that allows you to bring hot reloading functionality to WebExtensions, essentially `webpack-dev-server`, but for [WebExtensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions).
 
-This is a fork from [`webpack-extension-reloader`](https://github.com/rubenspgcavalcante/webpack-extension-reloader), maintained and updated by the team here at Simplify. The goal here is to continue to support the latest version of webpack (`webpack-extension-reloader` only supports webpack v4) while adding new improvements (i.e. HMR).
+This is a fork from [`webpack-ext-reloader-mv3`](https://github.com/WebExp0528/webpack-ext-reloader). 
+The only change made is the use of [`source-map-loader`](https://www.npmjs.com/package/source-map-loader) in order to remove/merge source map from `webextension-polyfill`
 
 ![](.github/sample-gif.gif)
 
@@ -144,20 +145,20 @@ If you don't want all the plugin setup, you can just use the client that comes w
 You can use by installing the package globally, or directly using `npx`:
 
 ```bash
-npx webpack-ext-reloader-mv3
+npx @mariuszste/webpack-ext-reloader-mv3
 ```
 
 If you run directly, it will use the  default configurations, but if you want to customize
 you can call it with the following options:
 
 ```bash
-npx webpack-ext-reloader-mv3 --config wb.config.js --port 9080 --no-page-reload --content-script my-content.js --background bg.js --extension-page popup.js
+npx @mariuszste/webpack-ext-reloader-mv3 --config wb.config.js --port 9080 --no-page-reload --content-script my-content.js --background bg.js --extension-page popup.js
 ```
 
 If you have **multiple** content scripts or extension pages, just use comma (with no spaces) while passing the option
 
 ```bash
-npx webpack-ext-reloader-mv3 --content-script my-first-content.js,my-second-content.js,my-third-content.js --extension-page popup.js,options.js
+npx @mariuszste/webpack-ext-reloader-mv3 --content-script my-first-content.js,my-second-content.js,my-third-content.js --extension-page popup.js,options.js
 ```
 
 ### Client options
@@ -182,4 +183,4 @@ Please before opening any **issue** or **pull request** check the [contribution 
 
 ### License
 
-This project has been forked from [voyage-finance/webpack-ext-reloader](https://github.com/voyage-finance/webpack-ext-reloader), which is licensed under the [MIT license](https://github.com/WebExp0528/webpack-ext-reloader/blob/master/LICENSE). All changes made in this fork have been licensed via the [MIT license](https://github.com/SimplifyJobs/webpack-ext-reloader/blob/master/LICENSE).
+This project has been forked from [WebExp0528/webpack-ext-reloader](https://github.com/WebExp0528/webpack-ext-reloader), which is licensed under the [MIT license](https://github.com/WebExp0528/webpack-ext-reloader/blob/master/LICENSE). All changes made in this fork have been licensed via the [MIT license](https://github.com/mariuszste/webpack-ext-reloader/blob/master/LICENSE).
