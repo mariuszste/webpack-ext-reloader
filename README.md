@@ -11,8 +11,8 @@ A Webpack plugin to automatically reload browser extensions during development.
 </div>
   
 [![npm version](https://img.shields.io/npm/v/webpack-ext-reloader)](https://www.npmjs.com/package/@mariuszste/webpack-ext-reloader-mv3)
-[![Test Status](https://github.com//WebExp0528/webpack-ext-reloader/workflows/tests/badge.svg)](https://github.com/mariuszste/webpack-ext-reloader/actions?query=branch%3Amaster)
-[![Known Vulnerabilities](https://snyk.io/test/github/WebExp0528/webpack-ext-reloader/badge.svg)](https://snyk.io/test/github/mariuszste/webpack-ext-reloader/)
+[![Test Status](https://github.com//mariuszste/webpack-ext-reloader/workflows/tests/badge.svg)](https://github.com/mariuszste/webpack-ext-reloader/actions?query=branch%3Amaster)
+[![Known Vulnerabilities](https://snyk.io/test/github/mariuszste/webpack-ext-reloader/badge.svg)](https://snyk.io/test/github/mariuszste/webpack-ext-reloader/)
 [![NPM Downloads](https://img.shields.io/npm/dt/mariuszste/webpack-ext-reloader-mv3.svg)](https://www.npmjs.com/package/@mariuszste/webpack-ext-reloader-mv3)
 
 ## Installing

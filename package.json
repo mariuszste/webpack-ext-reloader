@@ -1,6 +1,6 @@
 {
   "name": "@mariuszste/webpack-ext-reloader-mv3",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "private": false,
   "description": "Watch for file changes and reload WebExtensions on browsers.",
   "main": "dist/webpack-ext-reloader.js",
@@ -8,7 +8,7 @@
   "types": "typings/webpack-ext-reloader.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/WebExp0528/webpack-ext-reloader.git"
+    "url": "git://github.com/mariuszste/webpack-ext-reloader.git"
   },
   "husky": {
     "hooks": {
@@ -38,9 +38,9 @@
   "author": "Rubens Pinheiro Gonçalves Cavalcante",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WebExp0528/webpack-ext-reloader/issues"
+    "url": "https://github.com/mariuszste/webpack-ext-reloader-mv3/issues"
   },
-  "homepage": "https://github.com/WebExp0528/webpack-ext-reloader#readme",
+  "homepage": "https://github.com/mariuszste/webpack-ext-reloader-mv3#readme",
   "keywords": [
     "webpack",
     "plugin",
